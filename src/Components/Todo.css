@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+    padding: 3%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hT {
+    padding: 10px;
+}
+
+.child1 {
+    padding: 10px 5%;
+    background-color: rgb(245, 181, 63);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px;
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 0px 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: transparent;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.btn {
+    background-color: yellow;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(199, 199, 15);
+}
+
+.tP {
+    display: flex;
+    padding: 10px 5%;
+    border-radius: 10px;
+    background-color: aquamarine;
+    margin: 5px;
+    justify-content: space-between;
+}
+
+.eB,
+.dB {
+    border-radius: 50%;
+    border: transparent;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-direction: row;
+}
+
+.eB {
+    display: inline;
+    margin-right: 5px;
+    background-color: violet;
+}
+
+.dB {
+    display: inline;
+    background-color: red;
+    margin-left: 5px;
+}
+
+.child2 {
+    width: 90%;
+    background-color: chartreuse;
+    border-radius: 10px;
+    padding: 5px;
+    /* overflow: scroll; */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .parent {
+        margin: 2%;
+        padding: 2%;
+    }
+
+    .child1 {
+        padding: 10px 3%;
+    }
+
+    .btn {
+        padding: 10px 15px;
+    }
+
+    .tP {
+        padding: 10px 3%;
+    }
+
+    .child2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .child1{
+        padding: 10px 10px;
+        
+    }
+    input{
+        margin: 5px;
+    }
+    .btn{
+        padding: 10px 128px;
+    }
+
+    
+    
+}
